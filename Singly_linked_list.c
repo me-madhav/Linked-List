@@ -25,6 +25,7 @@ void display(struct Node* head){
 }
 
 void main(){
+    system("cls");
     struct Node* head = NULL;
     head = insertAtBegining(head, 110);
     head = insertAtBegining(head, 100);
